@@ -1,0 +1,14 @@
+{
+    "mongodb": {
+        "address": "localhost",
+        "port": "27017",
+        "db_name": "telemetria",
+        "collections": ["chimera", "fenice"]
+    },
+
+    "mqtt": {
+        "topic": ["chimera", "fenice"],
+        "hostname": "localhost",
+        "port": "1883"
+    }
+}

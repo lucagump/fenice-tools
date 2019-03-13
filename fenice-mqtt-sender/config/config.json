@@ -1,0 +1,7 @@
+{
+    "mqtt": {
+        "topic": ["chimera", "fenice"],
+        "hostname": "localhost",
+        "port": "1883"
+    }
+}

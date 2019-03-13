@@ -1,0 +1,16 @@
+{
+  "name": "fenice-mongodb-receiver",
+  "version": "1.0.0",
+  "description": "Receiver for Telemetry System",
+  "main": "receiver.js",
+  "dependencies": {
+    "mongodb": "^3.1.13",
+    "mqtt": "^2.18.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lucagump",
+  "license": "ISC"
+}
