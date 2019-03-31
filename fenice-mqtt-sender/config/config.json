@@ -3,5 +3,9 @@
         "topic": ["chimera", "fenice"],
         "hostname": "localhost",
         "port": "1883"
+    },
+    "can": {
+        "port": "vcan0"
     }
+
 }

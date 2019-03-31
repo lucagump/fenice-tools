@@ -1,0 +1,17 @@
+{
+    "name": "fenice-mqtt-sender",
+    "version": "1.0.0",
+    "description": "Read Can-Bus and send it via MQTT",
+    "author": "lucagump <l.martinelli@hotmail.com",
+    "license": "ISC",
+    "main": "sender.js",
+    "scripts": {
+        "start": "node sender.js"
+    },
+    "devDependencies": {},
+    "dependencies": {
+        "mqtt": "^2.18.8",
+        "os": "^0.1.1",
+        "socketcan": "^2.4.0"
+    }
+}
