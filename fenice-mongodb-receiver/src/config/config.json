@@ -2,7 +2,7 @@
     "mongodb": {
         "address": "localhost",
         "port": "27017",
-        "db_name": "telemetria",
+        "dbName": "telemetria",
         "collections": ["chimera", "fenice"]
     },
 
