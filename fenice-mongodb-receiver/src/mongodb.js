@@ -26,7 +26,7 @@ function insertDocumentInCollection(myobj, collection) {
     }
 };
 
-var self = module.exports = {
+module.exports = {
 
     /*Function to find a value in a Collection*/
     findInCollection: function (_id, collection, callback) {

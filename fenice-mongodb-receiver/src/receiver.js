@@ -36,8 +36,7 @@ client.on('offline', () => {
 
 client.on('message', function (_topic, message) {
     try {
-        const json = JSON.parse(deserialize(message));
-        // console.log(json);
+        const json = deserialize(message);
         mongo.insertData(json);
     } catch (error) {
         console.log('json bad format', error, message)
